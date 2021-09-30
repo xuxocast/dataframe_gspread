@@ -40,3 +40,5 @@ Click Create and store the downloaded file on your file system.
 
 -Please be aware, the file contains your private credentials, so take care of the file in the same way you care of your private SSH key; Move the downloaded JSON to <color = green>~/.config/gspread_pandas/google_secret.json</color> (or you can configure the directory and file name by directly calling gspread_pandas.conf.get_config
 Thanks to similar project df2gspread for this great description of how to get the client credentials.
+
+<span style="color: green"> Some green text </span>
