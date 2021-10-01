@@ -1,5 +1,6 @@
-# dataframe_gspread
-Enlace entre pandas y google sheets
+# Dataframe to google spreadsheet
+
+En este repositorio se muestra el uso de la biblioteca gspread_pandas. Se crea un spreadsheet de google que contiene un dataframe de pandas.
 
 ## Dependencias
 
@@ -40,4 +41,15 @@ Click Create and store the downloaded file on your file system.
 
 -Please be aware, the file contains your private credentials, so take care of the file in the same way you care of your private SSH key; Move the downloaded JSON to ~/.config/gspread_pandas/google_secret.json (or you can configure the directory and file name by directly calling gspread_pandas.conf.get_config
 Thanks to similar project df2gspread for this great description of how to get the client credentials.
+
+## Documentación
+
+1. [gspread documentation](https://docs.gspread.org/en/latest/)
+2. [gspread-pandas](https://github.com/aiguofer/gspread-pandas)
+3. [gspread-pandas documentation](https://gspread-pandas.readthedocs.io/en/latest/gspread_pandas.html)
+
+
+## Contacto
+
+Jesús Castrejón (jesus.castrejon@comimsa.com)
 
