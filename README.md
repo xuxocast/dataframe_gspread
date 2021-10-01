@@ -33,17 +33,14 @@ Antes de usar, es necesario descargar las credenciales de Google Client.
 Para que un script use Google Drive API primero tenemos que autentificarnos en google, para ello, es necesario crear un proyecto y generar las credenciales. Use el navegador web para ir a [Google Console](https://console.cloud.google.com/):
 
 
-- Choose Create Project in popup menu on the top
+- Elija **crear proyecto** en el menú superior:
 
-- A dialog box appears, so give your project a name and click on Create button.
+  - Aparece una ventana de diálogo, nombre el proyecto y dé click en el botón de crear.
+  - En el menú de la izquierda, click en **API Manager**.
+  - Se muestra una tabla con las APIs disponibles. Click en el botón **Enable API** y haga lo mismo para **Sheets API**
+  - En el menú de la izquierda, click en **Credentials**.
+  - En la sección **OAuth consent screen** seleccione su email y nombre del producto. Click en el botón Save.
 
-- On the left-side menu click on API Manager.
-
-- A table of available APIs is shown. Switch Drive API and click on Enable API button. Do the same for Sheets API. Other APIs might be switched off, for our purpose.
-
-- On the left-side menu click on Credentials.
-
-- In section OAuth consent screen select your email address and give your product a name. Then click on Save button.
 
 - In section Credentials click on Add credentials and switch **OAuth client ID** (if you want to use your own account or enable the use of multiple accounts) or **Service account key** (if you prefer to have a service account interacting with spreadsheets).
 
