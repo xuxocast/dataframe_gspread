@@ -33,7 +33,7 @@ Antes de usar, es necesario descargar las credenciales de Google Client.
 Para que un script use Google Drive API primero tenemos que autentificarnos en google, para ello, es necesario primeramente crear un proyecto y generar las credenciales. Use el navegador web para ir a [Google Console](https://console.cloud.google.com/):
 
 
-- Elija crear proyecto en el menú ''Proyect Gspread''.
+- Choose Create Project in popup menu on the top
 
 - A dialog box appears, so give your project a name and click on Create button.
 
