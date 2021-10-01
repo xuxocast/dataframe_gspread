@@ -1,6 +1,6 @@
 # Dataframe to google spreadsheet
 
-En este repositorio se muestra el uso de la biblioteca gspread-pandas, usada para crear un spreadsheet de google a partir de un dataframe de pandas.
+Este repositorio muestra el uso de la biblioteca gspread-pandas para crear un spreadsheet de google a partir de un dataframe de pandas.
 
 ## Dependencias
 
