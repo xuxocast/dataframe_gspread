@@ -9,6 +9,25 @@ En este repositorio se muestra el uso de la biblioteca gspread-pandas, usada par
 2. [gspread](https://github.com/burnash/gspread)
 3. [gspread_pandas](https://github.com/aiguofer/gspread-pandas)
 
+
+## Installation / Usage
+
+To install use pip:
+
+```
+$ pip install gspread-pandas
+```
+
+Or clone the repo:
+
+```
+$ git clone https://github.com/aiguofer/gspread-pandas.git
+$ python setup.py install
+```
+
+Before using, you will need to download Google client credentials for your app.
+
+
 ## Client Credentials
 
 To allow a script to use Google Drive API we need to authenticate our self towards Google. To do so, we need to create a project, describing the tool and generate credentials. Please use your web browser and go to Google console and:
