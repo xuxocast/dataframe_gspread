@@ -4,10 +4,10 @@ En este repositorio se muestra el uso de la biblioteca gspread-pandas, usada par
 
 ## Dependencias
 
-1. Pandas
+1. pandas
 2. numpy
-2. gspread
-3. gspread_pandas
+2. [gspread](https://github.com/burnash/gspread)
+3. [gspread_pandas](https://github.com/aiguofer/gspread-pandas)
 
 ## Client Credentials
 
@@ -45,7 +45,6 @@ Thanks to similar project df2gspread for this great description of how to get th
 ## Documentación
 
 1. [gspread documentation](https://docs.gspread.org/en/latest/)
-2. [gspread-pandas](https://github.com/aiguofer/gspread-pandas)
 3. [gspread-pandas documentation](https://gspread-pandas.readthedocs.io/en/latest/gspread_pandas.html)
 
 
