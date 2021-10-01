@@ -28,7 +28,7 @@ $ python setup.py install
 Before using, you will need to download Google client credentials for your app.
 
 
-## Client Credentials
+## Client Credentials (english)
 
 To allow a script to use Google Drive API we need to authenticate our self towards Google. To do so, we need to create a project, describing the tool and generate credentials. Please use your web browser and go to Google console and:
 
@@ -62,7 +62,7 @@ To allow a script to use Google Drive API we need to authenticate our self towar
 
 
 
-**Advertencia:** El archivo *.json contiene llaves privadas.
+**Advertencia:** El archivo *.json contiene llaves privadas, compartirlo equivale a dar acceso al drive de google.
 
 ## Documentación
 
