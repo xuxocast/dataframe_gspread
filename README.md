@@ -59,7 +59,7 @@ Para que un script use Google Drive API primero tenemos que autentificarnos en g
   - Leave Key type as JSON
   - Click Create and store the downloaded file on your file system.
 
-- Please be aware, the file contains your private credentials, so take care of the file in the same way you care of your private SSH key; Move the downloaded JSON to **~/.config/gspread_pandas/google_secret.json** (UNIX) or **%APPDATA%\gspread_pandas\google_secret.json** (Windows).
+- Move the downloaded JSON to **~/.config/gspread_pandas/google_secret.json** (UNIX) or **%APPDATA%\gspread_pandas\google_secret.json** (Windows).
 
 
 
