@@ -47,7 +47,7 @@ Para que un script use Google Drive API es ncesario autentificarnos en google, p
 
 - Mover el archivo descargado JSON a **~/.config/gspread_pandas/google_secret.json** (UNIX) ó **%APPDATA%\gspread_pandas\google_secret.json** (Windows). Esperar entre 2-10 min a que los servidores de Google Drive API actualicen los cambios. **Advertencia:** El archivo *.json contiene llaves privadas!
 
-**Nota:** Existen distintos tipos de autentificación. Para ver las diferencias entre ellos ir [aquí](https://stackoverflow.com/questions/39181501/whats-the-difference-between-api-key-client-id-and-service-account).
+**Nota:** Existen distintos tipos de autentificación, ver [aquí](https://stackoverflow.com/questions/39181501/whats-the-difference-between-api-key-client-id-and-service-account) las diferencias.
 
 
 
