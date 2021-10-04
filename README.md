@@ -30,22 +30,22 @@ Antes de usar, es necesario descargar las credenciales de Google Client.
 
 ## Credenciales de Google Client
 
-Para que un script use Google Drive API primero tenemos que autentificarnos en google, para ello, es necesario crear un proyecto y generar las credenciales. Use el navegador web para ir a [Google Console](https://console.cloud.google.com/):
+Para que un script use Google Drive API es ncesario autentificarnos en google, para ello, tenemos que crear un proyecto y generar las credenciales. Use el navegador web para ir a [Google Console](https://console.cloud.google.com/):
 
 
-- Elija **crear proyecto** en el menú de la parte superior:
+- Elija **Create Project** en el menú de la parte superior:
 
   - Aparece una ventana de diálogo, elija nombre el proyecto y dé click en el botón de crear.
   - En el menú de la izquierda, click en **APIs & Services**.
-  - Se muestra una tabla con las APIs disponibles. Click en el botón **Enable API** y haga lo mismo para **Sheets API**
-  - En el menú de la izquierda, sección **OAuth consent screen** seleccione su email y nombre del producto. Click en el botón Save.
+  - Se muestra una tabla con las APIs disponibles. Click en el botón **Enable API** y también active **Sheets API**
+  - En el menú de la izquierda, en la sección **OAuth consent screen** seleccione su email y nombre del producto. Click en el botón Save.
 
 - En la sección **Credentials** click en **Add credentials** y seleccione **OAuth client ID**:
-    - Select Application type item as Other and give it a name.
-    - Click on Create button.
-    - Click on Download JSON icon on the right side of created OAuth client IDs and store the downloaded file on your file system.
+    - Seleccione tipo de aplicación como **Other** y asigne un nombre.
+    - Click en el botón Crear .
+    - Click en Descargar **JSON** y guarde el documento en su su sistema de archivos.
 
-- Mover el archivo descargado JSON a **~/.config/gspread_pandas/google_secret.json** (UNIX) or **%APPDATA%\gspread_pandas\google_secret.json** (Windows). Esperar entre 2-10 min a que los servidores de Google Drive API actualicen los cambios. **Advertencia:** El archivo *.json contiene llaves privadas!
+- Mover el archivo descargado JSON a **~/.config/gspread_pandas/google_secret.json** (UNIX) ó **%APPDATA%\gspread_pandas\google_secret.json** (Windows). Esperar entre 2-10 min a que los servidores de Google Drive API actualicen los cambios. **Advertencia:** El archivo *.json contiene llaves privadas!
 
 **Nota:** Existen distintos tipos de autentificación. Para ver las diferencias entre ellos ir [aquí](https://stackoverflow.com/questions/39181501/whats-the-difference-between-api-key-client-id-and-service-account).
 
